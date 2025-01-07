@@ -1,0 +1,27 @@
+;root{
+    --bcg-color:#001122;
+    --primary-color:#155e75;
+    --borderr-radius: 8px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--bcg-color);
+}
+.box{
+    background-color: var(-primary-color);
+    padding: 30px;
+    width: 400;
+    border-radius: var(--borderr-radius);
+
+}
